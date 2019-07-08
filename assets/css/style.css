@@ -14,7 +14,10 @@
     color: #41a745;
     font-style: 1.2rem
 }
-.hero-section .content {
+.hero-section{
+    height: 100vh;
+}
+.content {
 	font-size: 1.2rem;
     line-height: 33px;
     letter-spacing: 0.4px;
@@ -31,10 +34,13 @@
 }
 
 .service-block{
-	text-transform: uppercase;
 	letter-spacing: 1px
 	font-weight:600;
-	font-family: sans-serif;
+}
+
+.service-text {
+    font-size: 1.3rem;
+    text-transform: lowercase;
 }
 .service {
 	height: 80px;
@@ -50,6 +56,9 @@
 .text {
 	padding-top: 10px;
 }
+.title {
+    text-transform: uppercase;
+}
 
 
 .grey-scale {
@@ -57,3 +66,55 @@
   filter: grayscale(100%);
 }
 
+.contact {
+    font-size: 1.2rem;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+
+.contact .fas {
+    font-size: 2rem !important;
+}
+
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background-color: #fff;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #666;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
