@@ -12,7 +12,7 @@
     border-radius: 50%;
     margin: 6px;
     color: #41a745;
-    font-style: 1.2rem
+    font-style: 1.2rem !important
 }
 .hero-section{
     height: 100vh;
@@ -117,4 +117,13 @@ canvas {
   padding-bottom: 2px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
+}
+
+
+.nav-link {
+    display: block;
+    padding: 0px !important;
+    text-align: center;
+    line-height: 36px;
+    color: #666;
 }
